@@ -61,9 +61,9 @@
             Name = name;
             LastName = lastName;
             BirthDate = birthDate;
-            IdentityNumber = identityNumber;
-            Email = email;
-            Position = position;
+            IdentityNumber = identityNumber.Trim();
+            Email = email.Trim();
+            Position = position.Trim();
             HireDate = hireDate;
             IsActive = isActive;
         }
